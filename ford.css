@@ -1,0 +1,281 @@
+.logo {
+  background-image: url(./Ford_img/Ford-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+  height: 35px;
+}
+
+/* .navbar:hover .logo {
+    background-image: url(./Ford_img/Ford-logo-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 35px;
+    ;
+ } */
+
+
+
+
+/* ###################### Tablet1 768px ################################# */
+@media (max-width:768px) {
+  .btn_parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caro1 {
+    position: absolute !important;
+    top: 25px !important;
+    left: 415px !important;
+    width: 300px !important;
+
+  }
+
+  .btn1 {
+    font-size: 8px !important;
+  }
+
+  .btn2 {
+    font-size: 8px !important;
+  }
+
+  .head_img1 {
+    font-size: 30px !important;
+  }
+
+  .btn_prev {
+    display: none !important;
+  }
+
+  .btn_next {
+    display: none !important;
+  }
+
+  .caro2{
+    position: absolute !important;
+    top: 25px !important;
+    left: 460px !important;
+    width: 300px !important;
+  }
+  .btn3 {
+    font-size: 9px !important;
+  }
+  .head_img2 {
+    font-size: 30px !important;
+  }
+
+  .caro3{
+    position: absolute !important;
+    top: 5px !important;
+    left: 30px !important;
+    width: 270px !important;
+  }
+  .btn4 {
+    font-size: 9px !important;
+  }
+  .head_img3 {
+    font-size: 30px !important;
+  }
+
+}
+
+/* ################## Mobile M 426px ##################### */
+@media (max-width:426px) {
+
+  .btn_parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caro1 {
+    position: absolute !important;
+    top: -8px !important;
+    left: 200px !important;
+    width: 209px !important;
+
+  }
+
+  .btn1 {
+    font-size: 6px !important;
+  }
+
+  .btn2 {
+    font-size: 6px !important;
+  }
+
+  .head_img1 {
+    font-size: 15px !important;
+  }
+
+  .caro2{
+    position: absolute !important;
+    top: -4px !important;
+    left: 232px !important;
+    width: 207px !important;
+  }
+  .btn3 {
+    font-size: 8px !important;
+  }
+  .head_img2 {
+    font-size: 20px !important;
+  }
+
+  .caro3{
+    position: absolute !important;
+    top: -14px !important;
+    left: 10px !important;
+    width: 160px !important;
+  }
+  .btn4 {
+    font-size: 8px !important;
+  }
+  .head_img3 {
+    font-size: 20px !important;
+  }
+
+  .indi{
+    display: none;
+  }
+
+}
+
+
+/* ################## Mobile M 376px ##################### */
+@media (max-width:376px) {
+
+  .btn_parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caro1 {
+    position: absolute !important;
+    top: -8px !important;
+    left: 156px !important;
+    width: 225px !important;
+
+  }
+
+  .btn1 {
+    font-size: 6px !important;
+  }
+
+  .btn2 {
+    font-size: 6px !important;
+  }
+
+  .head_img1 {
+    font-size: 15px !important;
+  }
+
+  .head_img1 {
+    font-size: 15px !important;
+  }
+
+  .btn_prev {
+    display: none !important;
+  }
+
+  .btn_next {
+    display: none !important;
+  }
+
+  .caro2{
+    position: absolute !important;
+    top: -4px !important;
+    left: 198px !important;
+    width: 207px !important;
+  }
+  .btn3 {
+    font-size: 6px !important;
+  }
+  .head_img2 {
+    font-size: 17px !important;
+  }
+  
+  .caro3{
+    position: absolute !important;
+    top: -14px !important;
+    left: 5px !important;
+    width: 160px !important;
+  }
+  .btn4 {
+    font-size: 5px !important;
+  }
+  .head_img3 {
+    font-size: 17px !important;
+  }
+
+
+}
+
+
+
+
+
+/* ################## Mobile S 321px ##################### */
+
+
+@media (max-width:321px) {
+
+  .btn_parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caro1 {
+    position: absolute !important;
+    top: -12px !important;
+    left: 127px !important;
+    width: 209px !important;
+
+  }
+
+  .btn1 {
+    font-size: 4px !important;
+  }
+
+  .btn2 {
+    font-size: 4px !important;
+  }
+
+  .head_img1 {
+    font-size: 13px !important;
+  }
+
+  .caro2{
+    position: absolute !important;
+    top: -4px !important;
+    left: 155px !important;
+  }
+  .btn3 {
+    font-size: 6px !important;
+  }
+  .head_img2 {
+    font-size: 13px !important;
+  }
+  .caro3{
+    position: absolute !important;
+    top: -18px !important;
+    left: -17px !important;
+    width: 160px !important;
+  }
+  .btn4 {
+    font-size: 5px !important;
+  }
+  .head_img3 {
+    font-size: 13px !important;
+  }
+
+}
+
+.grid1{
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.grid1:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
