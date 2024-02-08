@@ -141,6 +141,67 @@
 
 }
 
+/* ################## Mobile M 390px ##################### */
+@media (max-width:391px) {
+
+  .btn_parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .caro1 {
+    position: absolute !important;
+    top: -9px !important;
+    left: 166px !important;
+    width: 209px !important;
+
+  }
+
+  .btn1 {
+    font-size: 6px !important;
+  }
+
+  .btn2 {
+    font-size: 6px !important;
+  }
+
+  .head_img1 {
+    font-size: 15px !important;
+  }
+
+  .caro2{
+    position: absolute !important;
+    top: -10px !important;
+    left: 200px !important;
+    width: 207px !important;
+  }
+  .btn3 {
+    font-size: 6px !important;
+  }
+  .head_img2 {
+    font-size: 18px !important;
+  }
+
+  .caro3{
+    position: absolute !important;
+    top: -17px !important;
+    left: 10px !important;
+    width: 160px !important;
+  }
+  .btn4 {
+    font-size: 6px !important;
+  }
+  .head_img3 {
+    font-size: 20px !important;
+  }
+
+  .indi{
+    display: none;
+  }
+
+}
+
+
 
 /* ################## Mobile M 376px ##################### */
 @media (max-width:376px) {
