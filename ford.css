@@ -330,6 +330,10 @@
     font-size: 13px !important;
   }
 
+  .imgw{
+    height: 800px;
+  }
+
 }
 
 .grid1{
@@ -339,4 +343,26 @@
 
 .grid1:hover{
   transform: scale(1.05);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card_parent{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card{
+    transition: 1s;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+/* .btn_model{
+  position: fixed;
+  z-index: 2;
+} */
+
