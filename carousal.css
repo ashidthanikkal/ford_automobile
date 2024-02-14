@@ -1,0 +1,108 @@
+.car-image1{
+    background: url(./Ford_img/caro_img/caro_img1.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 100px 50px 100px;
+  }
+  .car-image2{
+    background: url(./Ford_img/caro_img/caro_img2.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 100px 100px 100px;
+  }
+  .car-image3{
+    background: url(./Ford_img/caro_img/caro_img3.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 100px 50px 100px;
+  }
+
+  .caro_button{
+    border: none; 
+    padding: 8px 12px;
+    font-size: 10px; 
+    background-color: rgb(93, 141, 251); 
+    color: white; 
+    font-weight: 600;
+  }
+  
+  .caro_caption1{
+    font-size: 30px;
+    color:white;
+    font-weight: 600;
+    line-height: 40px;
+  }
+
+
+
+  
+  .car-item-container{
+      height: 50vh; 
+    } 
+    @media only screen and (min-width:1250px){
+    .car-item-container{
+      height: 60vh; 
+    } 
+  }
+
+  @media only screen and (max-width:992px){
+
+    .car-image1{
+        padding: 100px 100px;
+      }
+      .car-image2{
+        padding: 100px 100px;
+      }
+      .car-image3{
+        padding: 100px 100px;
+      }
+    
+  }
+
+  
+    @media only screen and (max-width:768px){
+    .car-item-container{
+      height: 40vh; 
+    } 
+
+    .car-image1{
+        padding: 50px 60px;
+      }
+      .car-image2{
+        padding: 50px 60px;
+      }
+      .car-image3{
+        padding: 50px 60px;
+      }
+    
+  }
+  
+  
+  @media only screen and (max-width:450px){
+    .car-item-container{
+      height: 30vh; 
+    } 
+    .car-image1{
+    padding: 30px 40px;
+  }
+  .car-image2{
+    padding: 30px 40px;
+  }
+  .car-image3{
+    padding: 30px 40px;
+  }
+
+  .caro_button{
+    padding: 6px 10px;
+    font-size: 8px; 
+  }
+
+  .caro_caption1{
+    font-size: 27px;
+    line-height: 33px;
+  }
+
+
+
+  }
+  

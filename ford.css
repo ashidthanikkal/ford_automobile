@@ -1,5 +1,5 @@
 body{
-  overflow-x: clip;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -10,14 +10,6 @@ body{
   height: 35px;
 }
 
-/* .navbar:hover .logo {
-    background-image: url(./Ford_img/Ford-logo-white.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100px;
-    height: 35px;
-    ;
- } */
 
 
 
@@ -25,7 +17,7 @@ body{
 
 /* ###################### Tablet1 768px ################################# */
 @media (max-width:768px) {
-  .btn_parent {
+  /* .btn_parent {
     display: flex;
     flex-direction: column;
   }
@@ -82,7 +74,7 @@ body{
 
   .btn4 {
     font-size: 9px !important;
-  }
+  } */
 
   .head_img3 {
     font-size: 30px !important;
@@ -116,7 +108,7 @@ body{
 /* ################## Mobile M 426px ##################### */
 @media (max-width:426px) {
 
-  .btn_parent {
+  /* .btn_parent {
     display: flex;
     flex-direction: column;
   }
@@ -165,7 +157,7 @@ body{
 
   .btn4 {
     font-size: 8px !important;
-  }
+  } */
 
   .head_img3 {
     font-size: 20px !important;
@@ -201,7 +193,7 @@ body{
 /* ################## Mobile M 390px ##################### */
 @media (max-width:395px) {
 
-  .btn_parent {
+  /* .btn_parent {
     display: flex;
     flex-direction: column;
   }
@@ -250,7 +242,7 @@ body{
 
   .btn4 {
     font-size: 6px !important;
-  }
+  } */
 
   .head_img3 {
     font-size: 20px !important;
@@ -276,7 +268,7 @@ body{
 /* ################## Mobile M 376px ##################### */
 @media (max-width:376px) {
 
-  .btn_parent {
+  /* .btn_parent {
     display: flex;
     flex-direction: column;
   }
@@ -303,7 +295,7 @@ body{
 
   .head_img1 {
     font-size: 15px !important;
-  }
+  } */
 
   .btn_prev {
     display: none !important;
@@ -313,7 +305,7 @@ body{
     display: none !important;
   }
 
-  .caro2 {
+  /* .caro2 {
     position: absolute !important;
     top: -4px !important;
     left: 198px !important;
@@ -337,7 +329,7 @@ body{
 
   .btn4 {
     font-size: 5px !important;
-  }
+  } */
 
   .head_img3 {
     font-size: 17px !important;
@@ -364,7 +356,7 @@ body{
 
 @media (max-width:321px) {
 
-  .btn_parent {
+  /* .btn_parent {
     display: flex;
     flex-direction: column;
   }
@@ -412,11 +404,11 @@ body{
 
   .btn4 {
     font-size: 5px !important;
-  }
+  } 
 
   .head_img3 {
     font-size: 13px !important;
-  }
+  }*/
 
   .head_performance {
     padding: 15px !important;
