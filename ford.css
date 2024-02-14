@@ -1,3 +1,7 @@
+body{
+  overflow-x: clip;
+}
+
 .logo {
   background-image: url(./Ford_img/logo_img/Ford-logo.svg);
   background-repeat: no-repeat;
