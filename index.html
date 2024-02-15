@@ -26,7 +26,7 @@
 <body>
   <!-- bg-body-tertiary -->
   <div class="menu_content " >
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white;" >
       <div class=" container-fluid px-lg-5 py-md-2 py-0">
         <a class="navbar-brand" href="#">
           <div class="logo"></div>
@@ -37,12 +37,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <!-- <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><span>Home</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li> -->
 
             <li class="nav-item dropdown  overflow-visible">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -134,16 +128,16 @@
     </nav>
   </div>
   <!-- ######################################### Carousal ########################################### -->
-
+  <a id="top"></a>
   <section class="container-fluid p-0 mt-5 ">
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousal">
       <div class="carousel-indicators d-sm-flex d-none">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active car-item-container">
+        <div class="carousel-item active car-item-container" data-bs-interval="4000">
           <!-- <img src="./image/caro_img1.svg" class="d-block w-100" alt="..."> -->
           <div class="col row h-100 car-image1 align-items-lg-end align-items-start  justify-content-lg-center justify-content-end">
             <div class="col-lg-6 col-11 text-lg-center text-end">
@@ -155,7 +149,7 @@
             </div>
           </div>
           </div>
-          <div class="carousel-item  car-item-container">
+          <div class="carousel-item  car-item-container" data-bs-interval="2000">
             <!-- <img src="./image/caro_img1.svg" class="d-block w-100" alt="..."> -->
             <div class="col row h-100 car-image2  align-items-start  justify-content-lg-center justify-content-end">
               <div class="col-lg-6 col-12 text-lg-center text-end">
@@ -397,7 +391,7 @@
 
   <!-- Button trigger modal -->
 <div class="container d-flex flex-wrap justify-content-between align-items-center my-3">
-  <div class="containe btn_model_div">
+  <div class="btn_model_div">
       <button type="button" class="btn btn-primary rounded-circle  btn_model " data-bs-toggle="modal"
         data-bs-target="#exampleModal" style="background-color: #000480; border-color: #000480;">
         <i class="fa-solid fa-envelope" style="color: #ffffff;"></i> 
@@ -616,6 +610,15 @@
       </div>
     </div>
   </div> 
+
+  <div class="button_top_div container-fluid">
+    <a href="#top">
+      <button type="button"  class="btn btn-primary rounded-circle  btn_model " style="background-color: #ffffff; border-color: #000480;">
+        <i class="fa-solid fa-arrow-up" style="color: #000480;"></i> 
+      </button>
+    </a>
+</div>
+
   <hr class="border border-white border-1 opacity-100 container">
     <div class="cred text-center p-2">
       <p style="color: #ffffff;"  > © 2024 Ford Motor Company  SiteMap  SiteFeedback  Glossary  Contact Us  Accessibility  Terms & Conditions Third-Party Trademarks </p>  

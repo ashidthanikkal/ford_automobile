@@ -10,428 +10,6 @@ body{
   height: 35px;
 }
 
-
-
-
-
-
-/* ###################### Tablet1 768px ################################# */
-@media (max-width:768px) {
-  /* .btn_parent {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .caro1 {
-    position: absolute !important;
-    top: 25px !important;
-    left: 415px !important;
-    width: 300px !important;
-
-  }
-
-  .btn1 {
-    font-size: 8px !important;
-  }
-
-  .btn2 {
-    font-size: 8px !important;
-  }
-
-  .head_img1 {
-    font-size: 30px !important;
-  }
-
-  .btn_prev {
-    display: none !important;
-  }
-
-  .btn_next {
-    display: none !important;
-  }
-
-  .caro2 {
-    position: absolute !important;
-    top: 25px !important;
-    left: 460px !important;
-    width: 300px !important;
-  }
-
-  .btn3 {
-    font-size: 9px !important;
-  }
-
-  .head_img2 {
-    font-size: 30px !important;
-  }
-
-  .caro3 {
-    position: absolute !important;
-    top: 5px !important;
-    left: 30px !important;
-    width: 270px !important;
-  }
-
-  .btn4 {
-    font-size: 9px !important;
-  } */
-
-  .head_img3 {
-    font-size: 30px !important;
-  }
-
-  .head_performance {
-    padding: 30px !important;
-  }
-
-  .drift_brake {
-    padding: 30px !important;
-  }
-
-  .drift_brake {
-    font-size: 22px !important;
-  }
-
-  .sub_drift_brake {
-    font-size: 15px !important;
-  }
-
-  .para_drift_brake {
-    font-size: 10px !important;
-  }
-
-
-
-
-}
-
-/* ################## Mobile M 426px ##################### */
-@media (max-width:426px) {
-
-  /* .btn_parent {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .caro1 {
-    position: absolute !important;
-    top: -8px !important;
-    left: 200px !important;
-    width: 209px !important;
-
-  }
-
-  .btn1 {
-    font-size: 6px !important;
-  }
-
-  .btn2 {
-    font-size: 6px !important;
-  }
-
-  .head_img1 {
-    font-size: 15px !important;
-  }
-
-  .caro2 {
-    position: absolute !important;
-    top: -4px !important;
-    left: 232px !important;
-    width: 207px !important;
-  }
-
-  .btn3 {
-    font-size: 8px !important;
-  }
-
-  .head_img2 {
-    font-size: 20px !important;
-  }
-
-  .caro3 {
-    position: absolute !important;
-    top: -14px !important;
-    left: 10px !important;
-    width: 160px !important;
-  }
-
-  .btn4 {
-    font-size: 8px !important;
-  } */
-
-  .head_img3 {
-    font-size: 20px !important;
-  }
-
-  .indi {
-    display: none;
-  }
-
-  .head_performance {
-    padding: 25px !important;
-  }
-
-  .drift_brake {
-    padding: 25px !important;
-  }
-
-  .tech_img{
-    background-image: url(Ford_img/technology_cockpiit_img_for_mob.svg)!important;
-    background-size:cover !important;
-    background-repeat: no-repeat !important;
-    background-attachment:fixed !important;
-    width: 100% !important;
-    height: 150px !important;
-  }
-
-
-
-
-
-}
-
-/* ################## Mobile M 390px ##################### */
-@media (max-width:395px) {
-
-  /* .btn_parent {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .caro1 {
-    position: absolute !important;
-    top: -9px !important;
-    left: 166px !important;
-    width: 209px !important;
-
-  }
-
-  .btn1 {
-    font-size: 6px !important;
-  }
-
-  .btn2 {
-    font-size: 6px !important;
-  }
-
-  .head_img1 {
-    font-size: 15px !important;
-  }
-
-  .caro2 {
-    position: absolute !important;
-    top: -10px !important;
-    left: 200px !important;
-    width: 207px !important;
-  }
-
-  .btn3 {
-    font-size: 6px !important;
-  }
-
-  .head_img2 {
-    font-size: 18px !important;
-  }
-
-  .caro3 {
-    position: absolute !important;
-    top: -17px !important;
-    left: 10px !important;
-    width: 160px !important;
-  }
-
-  .btn4 {
-    font-size: 6px !important;
-  } */
-
-  .head_img3 {
-    font-size: 20px !important;
-  }
-
-  .indi {
-    display: none;
-  }
-
-  .head_performance {
-    padding: 25px !important;
-  }
-
-  .drift_brake {
-    padding: 20px !important;
-  }
-
-
-}
-
-
-
-/* ################## Mobile M 376px ##################### */
-@media (max-width:376px) {
-
-  /* .btn_parent {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .caro1 {
-    position: absolute !important;
-    top: -8px !important;
-    left: 156px !important;
-    width: 225px !important;
-
-  }
-
-  .btn1 {
-    font-size: 6px !important;
-  }
-
-  .btn2 {
-    font-size: 6px !important;
-  }
-
-  .head_img1 {
-    font-size: 15px !important;
-  }
-
-  .head_img1 {
-    font-size: 15px !important;
-  } */
-
-  .btn_prev {
-    display: none !important;
-  }
-
-  .btn_next {
-    display: none !important;
-  }
-
-  /* .caro2 {
-    position: absolute !important;
-    top: -4px !important;
-    left: 198px !important;
-    width: 207px !important;
-  }
-
-  .btn3 {
-    font-size: 6px !important;
-  }
-
-  .head_img2 {
-    font-size: 17px !important;
-  }
-
-  .caro3 {
-    position: absolute !important;
-    top: -14px !important;
-    left: 5px !important;
-    width: 160px !important;
-  }
-
-  .btn4 {
-    font-size: 5px !important;
-  } */
-
-  .head_img3 {
-    font-size: 17px !important;
-  }
-
-  .head_performance {
-    padding: 20px !important;
-  }
-
-  .drift_brake {
-    padding: 20px !important;
-  }
-
-
-
-}
-
-
-
-
-
-/* ################## Mobile S 321px ##################### */
-
-
-@media (max-width:321px) {
-
-  /* .btn_parent {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .caro1 {
-    position: absolute !important;
-    top: -12px !important;
-    left: 127px !important;
-    width: 209px !important;
-
-  }
-
-  .btn1 {
-    font-size: 4px !important;
-  }
-
-  .btn2 {
-    font-size: 4px !important;
-  }
-
-  .head_img1 {
-    font-size: 13px !important;
-  }
-
-  .caro2 {
-    position: absolute !important;
-    top: -4px !important;
-    left: 155px !important;
-  }
-
-  .btn3 {
-    font-size: 6px !important;
-  }
-
-  .head_img2 {
-    font-size: 13px !important;
-  }
-
-  .caro3 {
-    position: absolute !important;
-    top: -18px !important;
-    left: -17px !important;
-    width: 160px !important;
-  }
-
-  .btn4 {
-    font-size: 5px !important;
-  } 
-
-  .head_img3 {
-    font-size: 13px !important;
-  }*/
-
-  .head_performance {
-    padding: 15px !important;
-  }
-
-  .drift_brake {
-    padding: 15px !important;
-  }
-
-
-
-}
-
-/* .grid1{
-  border-radius: 10px;
-  transition: 1s;
-}
-
-.grid1:hover{
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-
 .card_parent {
   display: flex;
   justify-content: space-evenly;
@@ -448,15 +26,6 @@ body{
 
 }
 
-/* .adrenaline_img{
-  background-image:url("./Ford_img/helmategirl_img.avif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-  
-} */
-
 .helmategirl_img {
 
   width: 100%;
@@ -466,7 +35,6 @@ body{
 
 .performance_div {
   width: 100%;
-  /* height: 150px; */
   color: beige;
   background-color: #00142E;
 }
@@ -507,3 +75,114 @@ body{
   background-color: #00142E;
   width: 100%;
 }
+
+.button_top_div{
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  justify-content: end;
+  
+}
+
+
+/* ###################### Tablet1 768px ################################# */
+@media (max-width:768px) {
+
+
+  .head_performance {
+    padding: 30px !important;
+  }
+
+  .drift_brake {
+    padding: 30px !important;
+  }
+
+  .drift_brake {
+    font-size: 22px !important;
+  }
+
+  .sub_drift_brake {
+    font-size: 15px !important;
+  }
+
+  .para_drift_brake {
+    font-size: 10px !important;
+  }
+
+}
+
+/* ################## Mobile M 426px ##################### */
+@media (max-width:426px) {
+
+  .indi {
+    display: none;
+  }
+
+  .head_performance {
+    padding: 25px !important;
+  }
+
+  .drift_brake {
+    padding: 25px !important;
+  }
+
+  .tech_img{
+    background-image: url(Ford_img/technology_cockpiit_img_for_mob.svg)!important;
+    background-size:cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment:fixed !important;
+    width: 100% !important;
+    height: 150px !important;
+  }
+
+}
+
+/* ################## Mobile M 390px ##################### */
+@media (max-width:395px) {
+
+  .indi {
+    display: none;
+  }
+
+  .head_performance {
+    padding: 25px !important;
+  }
+
+  .drift_brake {
+    padding: 20px !important;
+  }
+
+}
+
+
+/* ################## Mobile M 376px ##################### */
+@media (max-width:376px) {
+
+  .head_performance {
+    padding: 20px !important;
+  }
+
+  .drift_brake {
+    padding: 20px !important;
+  }
+
+}
+
+/* ################## Mobile S 321px ##################### */
+
+
+@media (max-width:321px) {
+
+
+  .head_performance {
+    padding: 15px !important;
+  }
+
+  .drift_brake {
+    padding: 15px !important;
+  }
+
+
+
+}
+
